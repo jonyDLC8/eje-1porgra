@@ -1,0 +1,39 @@
+<?php
+Class User
+{
+    public function Login()
+    {
+
+    }
+    public function update()
+    {
+
+    }
+    public function login()
+    {
+
+    }
+}
+?>
+
+<?php
+include('User.Controler.php');
+if(isset($_GET['class']&& isset($_GET['method']))
+{
+    $class= $_GET['class'];
+    $method=$_GET['method'];
+
+}
+else
+{
+    echo "halo"
+}
+
+echo $class."___"$method.;
+
+$C = new class():
+$C->method();
+
+?>
+
+
