@@ -3,15 +3,15 @@ Class User
 {
     public function Login()
     {
-
+      echo "en el login";
     }
     public function update()
     {
-
+      echo "en el update";
     }
-    public function login()
+    public function delet()
     {
-
+      echo "en el delet";
     }
 }
 ?>
